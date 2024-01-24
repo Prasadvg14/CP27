@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.header {
+  height: 10vh;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: roboto;
+}
+
+.logo {
+  width: 15vw;
+  height: 10vh;
+}
+.items {
+  width: 18vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  list-style-type: none;
+  padding: 0%;
+}
+
+.btn {
+  background-color: #0b69ff;
+  color: #ffff;
+  height: 25px;
+  width: 100px;
+  border-radius: 3px;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px;
+}
